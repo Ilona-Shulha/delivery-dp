@@ -1,0 +1,15 @@
+%default-block {
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  background-color: $primary-color;
+};
+
+%default-dark {
+  background-color: $primary-color-dark;
+  color: $font-color-dark;
+};
+
+%color-danger {
+  color: $danger-color;
+}

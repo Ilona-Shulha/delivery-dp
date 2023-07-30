@@ -1,0 +1,14 @@
+.smooth-enter-active,
+.smooth-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.smooth-enter-from,
+.smooth-leave-to {
+  opacity: 0;
+}
+
+.smooth-enter-to,
+.smooth-leave-from {
+  opacity: 1;
+}

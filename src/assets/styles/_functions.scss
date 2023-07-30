@@ -1,0 +1,29 @@
+@function get-title($type) {
+  @if $type == "short" {
+    @return "Введіть Ваше Ім'я";
+  }
+
+  @if $type == "long" {
+    @return "Ім'я занадто довге";
+  }
+
+  @if $type == "grade" {
+    @return "Поставте Вашу оцінку";
+  }
+
+  @if $type == "short-comment" {
+    @return "Коментар занадто короткий";
+  }
+
+  @if $type == "long-comment" {
+    @return "Коментар занадто довгий";
+  }
+
+  @if $type == "default" {
+    @return "Надішліть нам свій відгук";
+  }
+}
+
+@function getCenter($a, $b) {
+  @return calc(($a - $b) / 2);
+}
